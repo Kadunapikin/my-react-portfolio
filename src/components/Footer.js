@@ -4,11 +4,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GithubIcon from '@mui/icons-material/GitHub';
+import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className='footer'>
-        <div>
+        <div className='socialMedia'>
             <GithubIcon />
             <LinkedInIcon />
             <FacebookIcon />
