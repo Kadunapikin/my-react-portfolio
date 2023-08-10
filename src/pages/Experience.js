@@ -34,7 +34,7 @@ function Experience() {
 
         <VerticalTimelineElement className='vertical-timeline-element--education' 
         date='2015-2019' 
-        iconStyle={{ background: '#3e497a', color: '#fff' }}
+        iconStyle={{ background: '#9d35b', color: '#fff' }}
         icon={<WorkIcon />}>
           <h3 className='vertical-timline-element-title'>Lift Above Poverty Organization (LAPO) Micro Finance Bank Nigeria Limited.</h3>
           <p>Agricultural Client Support Officer</p>
@@ -42,7 +42,7 @@ function Experience() {
 
         <VerticalTimelineElement className='vertical-timeline-element--education' 
         date='20019-2022' 
-        iconStyle={{ background: '#3e497a', color: '#fff' }}
+        iconStyle={{ background: '#9d35b', color: '#fff' }}
         icon={<WorkIcon />}>
           <h3 className='vertical-timline-element-title'>Letshego MFB, Abuja.</h3>
           <p>Agricultural Team Lead.</p>
@@ -50,7 +50,7 @@ function Experience() {
 
         <VerticalTimelineElement className='vertical-timeline-element--education' 
         date='2022-Till Date' 
-        iconStyle={{ background: '#3e497a', color: '#fff' }}
+        iconStyle={{ background: '#9d35b', color: '#fff' }}
         icon={<WorkIcon />}>
           <h3 className='vertical-timline-element-title'>TOP Software Developers,  Nigeria.</h3>
           <p>Volunteer Mentorship (Remote)</p>
