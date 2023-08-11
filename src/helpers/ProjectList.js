@@ -9,26 +9,33 @@ import githubProfile from '../assets/githubProfile.JPG';
 export const ProjectList = [
     {
         name: 'Capstone Project',
-        image: capstone, 
+        image: capstone,
+        skills: 'JavaScript, CSS, HTML, Bootstrap' 
     },
     {
         name: 'React Personal Portfolio',
         image: reactPortfolio,
+        skills: 'React, Note.JS, MaterialUI' 
     },
     {
         name: 'Rock Paper Scissors Game',
         image: rps,
+        skills: 'JavaScript, CSS, HTML' 
     },
     {
         name: 'Etch A Sketch',
         image: etchASketch,
+        skills: 'JavaScript, CSS, HTML, Bootstrap' 
     },
     {
         name: 'Porfolio',
         image: portfolio,
+        skills: 'JavaScript, CSS, HTML' 
+
     },
     {
         name: 'Github Profile',
         image: githubProfile,
+        skills: 'README.md' 
     }
 ]

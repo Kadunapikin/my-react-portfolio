@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProjectDisplay from './pages/ProjectDisplay';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
+          <Route path="/:id" element={<ProjectDisplay />}></Route>
         </Routes>
         <Footer />
       </Router>
