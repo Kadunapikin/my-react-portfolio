@@ -10,32 +10,37 @@ export const ProjectList = [
     {
         name: 'Capstone Project',
         image: capstone,
-        skills: 'JavaScript, CSS, HTML, Bootstrap' 
+        skills: 'JavaScript, CSS, HTML, Bootstrap',
+        about: 'A simple conference page to notify interested individuals about Top developers BootCamp where great front end web developers learn development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.' 
     },
     {
         name: 'React Personal Portfolio',
         image: reactPortfolio,
-        skills: 'React, Note.JS, MaterialUI' 
+        skills: 'React, Note.JS, MaterialUI',
+        about: 'This is a collection of my work just to demonstrates my expertise, coding abilities, problem-solving skills, and creativity. It also gives potential employers or clients a glimpse of what i can do.' 
     },
     {
         name: 'Rock Paper Scissors Game',
         image: rps,
-        skills: 'JavaScript, CSS, HTML' 
+        skills: 'JavaScript, CSS, HTML',
+        about: 'A classic game between a user and computer. Players start each round by picking, “rock, paper or scissors!” While computer also randomly pick from choices array of [rock, paper and scissors]. Rock crushes scissors, scissors cut paper, and paper covers rock. It is played for five(5) rounds to decide who wins the game!' 
     },
     {
         name: 'Etch A Sketch',
         image: etchASketch,
-        skills: 'JavaScript, CSS, HTML, Bootstrap' 
+        skills: 'JavaScript, CSS, HTML, Bootstrap',
+        about: 'This is a project where i build a browser version of something between a sketchpad and an Etch-A-Sketch to flex my DOM manipulation skills.' 
     },
     {
         name: 'Porfolio',
         image: portfolio,
-        skills: 'JavaScript, CSS, HTML' 
-
+        skills: 'JavaScript, CSS, HTML',
+        about: 'This is a collection of my work just to demonstrates my expertise, coding abilities, problem-solving skills, and creativity. It also gives potential employers or clients a glimpse of what i can do.' 
     },
     {
         name: 'Github Profile',
         image: githubProfile,
-        skills: 'README.md' 
+        skills: 'README.md',
+        about: 'This is a simple project aim at showing how a github profile can be made to display user activity and contributions to the community at a glance. It also enable a user to link his/her social media links from Github profile!' 
     }
 ]

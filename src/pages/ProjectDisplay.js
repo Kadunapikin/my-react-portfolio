@@ -11,6 +11,7 @@ function ProjectDisplay() {
     <div className='project'>
         <h1>{project.name}</h1>
         <img src={project.image} alt='' />
+        <p id='about-text'>{project.about}</p>
         <GitHubIcon />
         <p><b>Skills:</b>{project.skills}</p>
     </div>
