@@ -12,6 +12,7 @@ function ProjectDisplay() {
         <h1>{project.name}</h1>
         <img src={project.image} alt='' />
         <p id='about-text'>{project.about}</p>
+        <p>Live View: <a href={project.href}>{project.name}</a></p>
         <GitHubIcon />
         <p><b>Skills:</b>{project.skills}</p>
     </div>
