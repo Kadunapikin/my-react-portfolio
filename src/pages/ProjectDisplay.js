@@ -13,8 +13,8 @@ function ProjectDisplay() {
         <img src={project.image} alt='' />
         <p id='about-text'>{project.about}</p>
         <p>Live View: <a href={project.href}>{project.name}</a></p>
-        <GitHubIcon />
-        <p><b>Skills:</b>{project.skills}</p>
+        <a href={project.gitRepo}><GitHubIcon /></a>
+        <p className='lastP'><b>Skills:</b>{project.skills}</p>
     </div>
   )
 }

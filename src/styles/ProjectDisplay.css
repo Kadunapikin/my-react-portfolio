@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 6rem;
   }
   
   .project h1 {
@@ -33,6 +34,7 @@
   .project svg {
     font-size: 60px;
     color: #3e497a;
+    cursor: pointer;
   }
 
   #about-text {
@@ -40,4 +42,25 @@
     margin-right: 4%;
     text-align: justify;
   }
+
+  @media only screen and (max-width: 600px) {
+    .project {
+      margin-top: 4rem;
+      margin-bottom: 8rem;
+    }
   
+    #about-text {
+      margin-left: 6%;
+      margin-right: 6%;
+      font-size: 30px;
+    }
+
+    .project h1 {
+      font-size: 30px;
+    }  
+
+    .project h1, p {
+      margin-left: 6%;
+      margin-right: 6%;
+    }  
+  }  
