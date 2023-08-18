@@ -8,12 +8,12 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, My Nmame is Bakoshi</h2>
+        <h2>Hi, My Name is Bakoshi</h2>
         <div className='prompt'>
           <p>A front end web developer, detail-oriented team player with strong passion for learning and Creating.</p>
-          <LinkedInIcon />
-          <GithubIcon />
-          <EmailIcon />
+          <a href='https://www.linkedin.com/in/kadunapikin/'><LinkedInIcon /></a>
+          <a href='https://github.com/Kadunapikin'><GithubIcon /></a>
+          <a href='ibakoshi27@gmail.com'><EmailIcon /></a>
         </div>
       </div>
       <div className='skills'>

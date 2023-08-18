@@ -10,11 +10,11 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <GithubIcon />
-            <LinkedInIcon />
-            <FacebookIcon />
-            <TwitterIcon />
-            <InstagramIcon />
+            <a href='https://github.com/Kadunapikin'><GithubIcon /></a>
+            <a href='https://www.linkedin.com/in/kadunapikin/'><LinkedInIcon /></a>
+            <a href='https://www.facebook.com/ibakoshi?mibextid=ZbWKwL'><FacebookIcon /></a>
+            <a href='https://twitter.com/Kadunapikin?t=BkjbDzGQlfmxYgeaPyGAZA&s=09'><TwitterIcon /></a>
+            <a href='https://instagram.com/kadunapikin?igshid=ZGUzMzM3NWJiOQ=='><InstagramIcon /></a>
         </div>
         <p> &copy; 2023 kadunapikin.com</p>
     </div>

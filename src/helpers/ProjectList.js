@@ -22,18 +22,18 @@ export const ProjectList = [
         href: "/#"  
     },
     {
-        name: 'Rock Paper Scissors Game',
-        image: rps,
-        skills: 'JavaScript, CSS, HTML',
-        about: 'A classic game between a user and computer. Players start each round by picking, “rock, paper or scissors!” While computer also randomly pick from choices array of [rock, paper and scissors]. Rock crushes scissors, scissors cut paper, and paper covers rock. It is played for five(5) rounds to decide who wins the game!',
-        href : "https://kadunapikin.github.io/RockPaperScissors/" 
-    },
-    {
         name: 'Etch A Sketch',
         image: etchASketch,
         skills: 'JavaScript, CSS, HTML, Bootstrap',
         about: 'This is a project where i build a browser version of something between a sketchpad and an Etch-A-Sketch to flex my DOM manipulation skills.',
         href: "https://kadunapikin.github.io/etch_a_sketch/" 
+    },
+    {
+        name: 'Rock Paper Scissors Game',
+        image: rps,
+        skills: 'JavaScript, CSS, HTML',
+        about: 'A classic game between a user and computer. Players start each round by picking, “rock, paper or scissors!” While computer also randomly pick from choices array of [rock, paper and scissors]. Rock crushes scissors, scissors cut paper, and paper covers rock. It is played for five(5) rounds to decide who wins the game!',
+        href : "https://kadunapikin.github.io/RockPaperScissors/" 
     },
     {
         name: 'Porfolio',
