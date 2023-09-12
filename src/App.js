@@ -7,6 +7,7 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
           <Route path="/:id" element={<ProjectDisplay />}></Route>
         </Routes>
         <Footer />

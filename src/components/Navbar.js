@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import "../styles/Navbar.css";
 import ReorderIcon from '@mui/icons-material/Reorder';
 
@@ -17,14 +17,15 @@ useEffect(() => {
   return (
     <div className='navbar' id={expandNavbar ? "open" : "close"}>
         <div className='toggleButton'>
-            <button onClick={handleClick}>
-              <ReorderIcon />
-            </button>
+          <button onClick={handleClick}>
+            <ReorderIcon />
+          </button>
         </div>
         <div className='links'>
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="experience">Experience</Link>
+          <NavLink exact to="/">Home</NavLink>
+          <NavLink to="/projects">Project</NavLink>                               
+          <NavLink to="experience">Experience</NavLink>                               
+          <NavLink to="contact">Contact</NavLink>                                                               
         </div>
     </div>
   )
